@@ -20,3 +20,10 @@ This document only records update notes for versions maintained by CatIsLeisure.
 ### Fixes
 - Fixed the issue where the King Slime would attempt to spawn infinitely within a single game day.
   (Reference: TheMarstonConnell/Better-Slimes#7)
+
+---
+
+## v1.3.1
+### Changes
+- Added a welcome message on world load with the repository link.<br>
+*This message can still be disabled via config.*

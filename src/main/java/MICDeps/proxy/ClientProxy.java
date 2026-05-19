@@ -41,7 +41,9 @@ public class ClientProxy extends CommonProxy {
 			MinecraftForge.EVENT_BUS.unregister(this);
 			if (ConfigHandler.startupMessage) {
 				event.player.sendMessage(new TextComponentString(TextFormatting.GREEN
-						+ "Thank you for installing Better Slimes by milomaz1, follow me on twitter @MarstonConnell for updates!"));
+						+ "Thank you for installing Better Slimes by milomaz1(MarstonConnell)"));
+				event.player.sendMessage(new TextComponentString(TextFormatting.AQUA
+						+ "You are using an unofficial fork version, report issues here: https://github.com/catIsLeisure/Better-Slimes"));										 
 				event.player.playSound(SoundEvents.ENTITY_PLAYER_LEVELUP, 2.5F, 1.0F);
 			}
 		}
